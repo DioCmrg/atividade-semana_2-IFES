@@ -8,15 +8,14 @@ salario = parseFloat(prompt("Digite seu salário: "));
 if ((idade >= 65) || (tempo >= 30) || (idade = 60 && tempo >= 25)) {
   console.log("Você pode se aposentar!");
   // Implementar os comandos de decisão aninhados para calcular o salário de aposentadoria (80% ou 60%)
+  
   if (tempo <= 20) {
     var novo_salario = salario * 0.6;
 
   } else {
     var novo_salario = salario * 0.8;
   }
-
   // console.log(novo_salario);
-
 
   // Implementar os comandos de decisão aninhados para garantir o salário de aposentadoria dentro dos limites inferior (R$ 1212,00) e superior (R$ 7087,22)
   if (novo_salario < 1212.00) {
@@ -29,6 +28,5 @@ if ((idade >= 65) || (tempo >= 30) || (idade = 60 && tempo >= 25)) {
 
 } else {
   console.log("Você não pode se aposentar");
-  
   console.log(novo_salario);
 };
