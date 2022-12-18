@@ -29,5 +29,6 @@ if ((idade >= 65) || (tempo >= 30) || (idade = 60 && tempo >= 25)) {
 
 } else {
   console.log("Você não pode se aposentar");
+  
   console.log(novo_salario);
 };
